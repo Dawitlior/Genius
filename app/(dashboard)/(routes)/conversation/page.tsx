@@ -90,14 +90,11 @@ const ConversationPage = () => {
         </div>
 
         <div className="space-y-4 mt-4">
-          {messages.length === 0 && !isLoading && (
-            <div>
-              EMPTY
-            </div>
-          )}
-          <div className="flex flex-col-revers gap-y-4">
+          <div className="flex flex-col-reverse gap-y-4">
             {messages.map((message) => (
-              <div key={message.content}>{message.content}</div>
+              <div key={message.content}>
+                {message.content}
+              </div>
             ))}
           </div>
         </div>
