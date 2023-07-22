@@ -26,5 +26,5 @@ model UserSubscription {
 }
 
 // npx prisma db push - push to the database 
-// npx prisma generate - add the modal to the node modules
+// npx prisma generate - add the modal to the node modules, and every time you add models
 //npx prisma studio - help to see all of my data inside
