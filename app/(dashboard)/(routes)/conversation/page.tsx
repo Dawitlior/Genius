@@ -18,6 +18,7 @@ import { cn } from "@/lib/utils";
 
 import { formSchema } from "./constants";
 import Empty from "@/components/empty";
+import { Loader } from "@/components/Loader";
 
 const ConversationPage = () => {
   const router = useRouter();
@@ -91,6 +92,11 @@ const ConversationPage = () => {
         </div>
 
         <div className="space-y-4 mt-4">
+          {isLoading && (
+            <div className="p-8 rounded-lg w-full flex items-center justify-center bg-muted">
+              <Loader />
+            </div>
+          )}
           {messages.length === 0 && !isLoading && (
             <Empty label="No Conversation Started." />
           )}
