@@ -37,12 +37,13 @@ const tools = [
     },
     {
         label: "Code Generation",
-        icon: VideoIcon,
+        icon: Code,
         color: "text-orange-700",
         bgColor: "bg-orange-700/10",
         href: "/video"
     }
-]
+];
+
 const DashboardPage = () => {
     const router = useRouter()
     return (
