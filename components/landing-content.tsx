@@ -34,7 +34,7 @@ const testimonials = [
     avatar: "M",
     title: "Backend Engineer",
     description:
-      "The best in class, definitely worth the premium subscription!",
+      "Unbelievable application, very useful!",
   },
 ];
 
@@ -48,8 +48,7 @@ export const LandingContent = () => {
         {testimonials.map((item) => (
           <Card
             key={item.description}
-            className="bg-[#192339] border-none text-white"
-          >
+            className="bg-[#192339] border-none text-white">
             <CardHeader>
               <CardTitle className="flex items-center gap-x-2">
                 <div>
