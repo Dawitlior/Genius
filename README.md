@@ -26,10 +26,6 @@ The AI SaaS Platform is a cutting-edge web application that offers five powerful
 1. Set up the environment variables required for the project.
 2. Configure the Prisma connection details in the `.env` file.
 
-### Enjoy 
-- https://blog-ai-inja5xr3y-dawitlior.vercel.app/
-
-- Ai response in progress
 
 ### Running the Application
 
