@@ -81,7 +81,6 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ![genius](https://github.com/Dawitlior/Genius/assets/102303153/af7e9014-2189-48ea-8b1b-4c826f0f9d4b)
 
 
-
 ## Contact
 
 If you have any questions, suggestions, or issues, please feel free to contact with me at Dawitlior777@gmail.com
@@ -89,6 +88,3 @@ If you have any questions, suggestions, or issues, please feel free to contact w
 ## Enjoy
 
 - [https://blog-ai-inja5xr3y-dawitlior.vercel.app/](https://genius-saas-platform.vercel.app/)
-
-
-
