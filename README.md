@@ -4,7 +4,9 @@ using Next.js 13 App Router, React, Prisma, Clerk, Shadcn, Tailwind, webhooks, a
 
 ## Description
 
-The AI SaaS Platform is a cutting-edge web application that offers five powerful AI tools designed to address a variety of business needs. Built on the Next.js 13 App Router, this platform provides an efficient and user-centric experience for both developers and end-users. With the integration of a seamless Stripe subscription system, the platform ensures a smooth billing process for all users.
+The AI SaaS Platform is a cutting-edge web application that offers five powerful AI tools designed to address a variety of business needs.
+Photo Generation, Blog Writing, Video Generation, Code Generation, and also Chatbot for Instruction.
+Built on the Next.js 13 App Router, this platform provides an efficient and user-centric experience for both developers and end-users. With the integration of a seamless Stripe subscription system, the platform ensures a smooth billing process for all users.
 
 
 ## Getting Started
