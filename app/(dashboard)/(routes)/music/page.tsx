@@ -46,7 +46,7 @@ const MusicPage = () => {
       if (error?.response?.status === 403) {
         proModal.onOpen();
       } else {
-        toast.error("Working on it, try again later")
+        toast.error("Replicate Free Subscription Limit Expired :(")
       }
     } finally {
       router.refresh();

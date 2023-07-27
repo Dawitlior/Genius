@@ -47,7 +47,7 @@ const VideoPage = () => {
       if (error?.response?.status === 403) {
         proModal.onOpen();
       } else {
-        toast.error("Working on it, try again later")
+        toast.error("Replicate Free Subscription Limit Expired :(")
       }
     } finally {
       router.refresh();
@@ -104,7 +104,7 @@ const VideoPage = () => {
           {!video && !isLoading && <Empty label="No Video Generated." />}
           {video && (
             <video className="w-full aspect-video mt-8 rounded-lg border bg-black" controls>
-              <source src={video}/>
+              <source src={video} />
             </video>
           )}
         </div>
