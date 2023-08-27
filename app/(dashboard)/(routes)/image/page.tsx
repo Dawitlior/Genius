@@ -57,7 +57,7 @@ const ImagePage = () => {
       const urls = response.data.map((image: { url: string }) => image.url);
 
       setImages(urls);
-
+      toast.success("You did it!")
       form.reset();
     } catch (error: any) {
       if (error?.response?.status === 403) {
