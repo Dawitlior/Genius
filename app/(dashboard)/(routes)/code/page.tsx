@@ -50,7 +50,7 @@ const CodePage = () => {
         messages: newMessages,
       });
       setMessages((current) => [...current, userMessage, response.data]);
-
+      toast.success("You did it!")
       form.reset();
     } catch (error: any) {
       if (error?.response?.status === 403) {
