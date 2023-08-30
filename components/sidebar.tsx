@@ -36,6 +36,13 @@ const routes = [
     color: "text-violet-500",
   },
   {
+    label: "Code Generation",
+    icon: Code,
+    color: "text-green-700",
+    href: "/code",
+  },
+  
+  {
     label: "Image Generation",
     icon: ImageIcon,
     color: "text-pink-700",
@@ -53,12 +60,7 @@ const routes = [
     color: "text-emerald-500",
     href: "/music",
   },
-  {
-    label: "Code Generation",
-    icon: Code,
-    color: "text-green-700",
-    href: "/code",
-  },
+  
   {
     label: "Settings",
     icon: Settings,
